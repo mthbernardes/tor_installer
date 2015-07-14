@@ -20,9 +20,9 @@ echo
 
 echo '[+] - Installing... '
 echo 
-apt-get install deb.torproject.org-keyring  --force-yes
-apt-get install tor  --force-yes
-apt-get install privoxy  --force-yes
+apt-get --yes --force-yes install deb.torproject.org-keyring  --force-yes
+apt-get --yes --force-yes install tor  --force-yes
+apt-get --yes --force-yes install privoxy  --force-yes
 echo 
 
 echo '[+] - Changing configuration files'
